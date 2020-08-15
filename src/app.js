@@ -11,7 +11,7 @@ require('dotenv/config');
 app.use(bodyParser.json());
 
 // Import Routes
-const postsRoute = require('./routes/posts');
+const postsRoute = require('../routes/posts');
 
 app.use('/posts',postsRoute);
 
